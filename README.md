@@ -2,6 +2,8 @@
 
 This project enables real-time hand gesture recognition using computer vision and deep learning. It is designed to collect gesture data, train a model, and perform live gesture classification, which can be used for applications such as drone control or human-computer interaction.
 
+--- 
+
 ## Folder Structure & File Explanations
 
 ### data_collection
@@ -28,10 +30,14 @@ This project enables real-time hand gesture recognition using computer vision an
   - Contains the list of gesture labels corresponding to the model’s output classes.
   - Used to map model predictions to human-readable gesture names.
 
+--- 
+
 ## How It Works
 1. **Data Collection**: Run `datacollection.py` to capture images of different hand gestures and save them in the respective folders.
 2. **Model Training**: (Not included here, but typically you would train a model using the collected images and save it as `keras_model.h5`.)
 3. **Gesture Recognition**: Run `test.py` to use your webcam for live gesture recognition using the trained model.
+   
+--- 
 
 ## Requirements
 - Python 3.x
@@ -39,6 +45,8 @@ This project enables real-time hand gesture recognition using computer vision an
 - cvzone
 - numpy
 - Keras
+  
+---
 
 ## Usage
 1. Install dependencies:
@@ -55,7 +63,7 @@ This project enables real-time hand gesture recognition using computer vision an
    ```bash
    python data_collection/test.py
    ```
-
+   
 --- 
 
 ## Author
