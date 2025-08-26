@@ -1,0 +1,8 @@
+0 back
+1 down
+2 Go forward
+3 land
+4 left
+5 right
+6 stop
+7 up
